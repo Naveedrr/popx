@@ -1,12 +1,43 @@
-# React + Vite
+# PopX
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PopX is a simple React application bootstrapped with Vite.  
+It features a clean, centered login page and a white background for a modern look.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React + Vite**: Fast development and build experience.
+- **Login Page**: The login page is centered both vertically and horizontally using CSS Flexbox.
+- **White Background**: The entire app uses a white background for a clean appearance.
+- **React Router Ready**: The project is set up to use `react-router-dom` for navigation between pages.
+- **Component Structure**: Organized into pages and components for scalability.
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js and npm installed
+
+### Installation
+
+
+1. Install dependencies:
+   ```sh
+   npm install
+   ```
+
+2. Start the development server:
+   ```sh
+   npm run dev
+   ```
+
+3. Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+
+## Customization
+
+- To change the login page content, edit `src/Pages/LoginPage/LoginPage.jsx`.
+- To modify global styles, edit `src/index.css`.
+
+## License
+
+This project is licensed under the MIT License.
