@@ -38,6 +38,4 @@ It features a clean, centered login page and a white background for a modern loo
 - To change the login page content, edit `src/Pages/LoginPage/LoginPage.jsx`.
 - To modify global styles, edit `src/index.css`.
 
-## License
 
-This project is licensed under the MIT License.
